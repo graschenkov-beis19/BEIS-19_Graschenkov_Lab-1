@@ -31,7 +31,7 @@ namespace LB2
             double y = Convert.ToDouble(textBox2.Text);
             x = x + y;
             textBox3.Text = Convert.ToString(x);
-            textBox4.Text = ("Сложение");
+            textBox4.Text = ("Сложение (+)");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace LB2
             double y = Convert.ToDouble(textBox2.Text);
             x = x - y;
             textBox3.Text = Convert.ToString(x);
-            textBox4.Text = ("Вычитание");
+            textBox4.Text = ("Вычитание (-)");
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -49,7 +49,7 @@ namespace LB2
             double y = Convert.ToDouble(textBox2.Text);
             x = x * y;
             textBox3.Text = Convert.ToString(x);
-            textBox4.Text = ("Умножение");
+            textBox4.Text = ("Умножение (*)");
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -58,7 +58,7 @@ namespace LB2
             double y = Convert.ToDouble(textBox2.Text);
             x = x / y;
             textBox3.Text = Convert.ToString(x);
-            textBox4.Text = ("Деление");
+            textBox4.Text = ("Деление (/)");
         }
     }
 }
